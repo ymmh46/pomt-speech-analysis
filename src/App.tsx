@@ -1,9 +1,9 @@
-import React from 'react';
+import { useRoutes } from "react-router-dom"
+import routes from "./routes"
 
 function App() {
-  return (
-    <div className="text-xs text-red-500">Hello</div>
-  );
+  const element = useRoutes(routes);
+  return element;
 }
 
 export default App;

@@ -1,6 +1,12 @@
+import Header from "../../components/Header"
+
+
 const Start: React.FC = () => {
   return (
-    <div>Start</div>
+    <>
+      <Header />
+      <div>Start</div>
+    </>
   )
 }
 

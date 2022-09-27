@@ -26,3 +26,5 @@ const routes: RouteObject[] = [
     children: [],
   },
 ]
+
+export default routes;
