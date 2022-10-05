@@ -1,6 +1,11 @@
+import Header from "components/Header"
+
 const Analyze: React.FC = () => {
   return (
-    <div>Analyze</div>
+    <>
+      <Header />
+      <div>Analyze</div>
+    </>
   )
 }
 
