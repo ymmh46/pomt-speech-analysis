@@ -6,7 +6,7 @@ const Start: React.FC = () => {
     <>
       <Header />
       <div>Start</div>
-      <Footer />
+      <Footer status="pending" />
     </>
   )
 }

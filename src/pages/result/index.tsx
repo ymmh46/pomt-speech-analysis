@@ -1,8 +1,13 @@
+import Header from "components/Header"
+import Footer from "components/Footer"
+
 const Result: React.FC = () => {
   return (
-    <div>
-      result
-    </div>
+    <>
+      <Header />
+      <div>Summary</div>
+      <Footer status="summary" />
+    </>
   )
 }
 

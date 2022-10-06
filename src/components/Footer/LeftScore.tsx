@@ -1,8 +1,8 @@
 import { BsFillPersonCheckFill } from "react-icons/bs"
 
-type Props = {
+type leftProps = {
   status: "pending" | "analyzing" | "paused" | "summary";
-  score: number;
+  score?: number;
 }
 
 const LeftScore: React.FC = () => {
